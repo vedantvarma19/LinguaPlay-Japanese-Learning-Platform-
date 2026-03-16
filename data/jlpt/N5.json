@@ -1,0 +1,2128 @@
+[
+  { "word": "会う", "reading": "あう", "meaning": "to meet", "jlptLevel": "N5" },
+  { "word": "青", "reading": "あお", "meaning": "blue", "jlptLevel": "N5" },
+  { "word": "青い", "reading": "あおい", "meaning": "blue", "jlptLevel": "N5" },
+  { "word": "赤", "reading": "あか", "meaning": "red", "jlptLevel": "N5" },
+  { "word": "赤い", "reading": "あかい", "meaning": "red", "jlptLevel": "N5" },
+  { "word": "明るい", "reading": "あかるい", "meaning": "bright", "jlptLevel": "N5" },
+  { "word": "秋", "reading": "あき", "meaning": "autumn", "jlptLevel": "N5" },
+  { "word": "開く", "reading": "あく", "meaning": "to open, to become open", "jlptLevel": "N5" },
+  { "word": "開ける", "reading": "あける", "meaning": "to open", "jlptLevel": "N5" },
+  { "word": "上げる", "reading": "あげる", "meaning": "to give", "jlptLevel": "N5" },
+  { "word": "朝", "reading": "あさ", "meaning": "morning", "jlptLevel": "N5" },
+  { "word": "朝御飯", "reading": "あさごはん", "meaning": "breakfast", "jlptLevel": "N5" },
+  { "word": "あさって", "reading": "あさって", "meaning": "day after tomorrow", "jlptLevel": "N5" },
+  { "word": "足", "reading": "あし", "meaning": "foot, leg", "jlptLevel": "N5" },
+  { "word": "明日", "reading": "あした", "meaning": "tomorrow", "jlptLevel": "N5" },
+  { "word": "あそこ", "reading": "あそこ", "meaning": "over there", "jlptLevel": "N5" },
+  { "word": "遊ぶ", "reading": "あそぶ", "meaning": "to play, to make a visit", "jlptLevel": "N5" },
+  { "word": "暖かい", "reading": "あたたかい", "meaning": "warm", "jlptLevel": "N5" },
+  { "word": "頭", "reading": "あたま", "meaning": "head", "jlptLevel": "N5" },
+  { "word": "新しい", "reading": "あたらしい", "meaning": "new", "jlptLevel": "N5" },
+  { "word": "あちら", "reading": "あちら", "meaning": "there", "jlptLevel": "N5" },
+  { "word": "暑い", "reading": "あつい", "meaning": "hot", "jlptLevel": "N5" },
+  { "word": "熱い", "reading": "あつい", "meaning": "hot to the touch", "jlptLevel": "N5" },
+  { "word": "厚い", "reading": "あつい", "meaning": "kind, deep, thick", "jlptLevel": "N5" },
+  { "word": "あっち", "reading": "あっち", "meaning": "over there", "jlptLevel": "N5" },
+  { "word": "後", "reading": "あと", "meaning": "afterwards", "jlptLevel": "N5" },
+  { "word": "あなた", "reading": "あなた", "meaning": "you", "jlptLevel": "N5" },
+  { "word": "兄", "reading": "あに", "meaning": "(humble) older brother", "jlptLevel": "N5" },
+  { "word": "姉", "reading": "あね", "meaning": "(humble) older sister", "jlptLevel": "N5" },
+  { "word": "アパート", "reading": "アパート", "meaning": "apartment", "jlptLevel": "N5" },
+  { "word": "あびる", "reading": "あびる", "meaning": "to bathe, to shower", "jlptLevel": "N5" },
+  { "word": "危ない", "reading": "あぶない", "meaning": "dangerous", "jlptLevel": "N5" },
+  { "word": "甘い", "reading": "あまい", "meaning": "sweet", "jlptLevel": "N5" },
+  { "word": "雨", "reading": "あめ", "meaning": "rain", "jlptLevel": "N5" },
+  { "word": "飴", "reading": "あめ", "meaning": "candy", "jlptLevel": "N5" }
+,
+{
+  "word": "ある",
+  "reading": "ある",
+  "meaning": "to exist (inanimate)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "歩く",
+  "reading": "あるく",
+  "meaning": "to walk",
+  "jlptLevel": "N5"
+},
+{
+  "word": "あれ",
+  "reading": "あれ",
+  "meaning": "that (over there)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "いい",
+  "reading": "いい",
+  "meaning": "good",
+  "jlptLevel": "N5"
+},
+{
+  "word": "家",
+  "reading": "いえ",
+  "meaning": "house",
+  "jlptLevel": "N5"
+},
+{
+  "word": "行く",
+  "reading": "いく",
+  "meaning": "to go",
+  "jlptLevel": "N5"
+},
+{
+  "word": "いくつ",
+  "reading": "いくつ",
+  "meaning": "how many",
+  "jlptLevel": "N5"
+},
+{
+  "word": "いくら",
+  "reading": "いくら",
+  "meaning": "how much",
+  "jlptLevel": "N5"
+},
+{
+  "word": "池",
+  "reading": "いけ",
+  "meaning": "pond",
+  "jlptLevel": "N5"
+},
+{
+  "word": "医者",
+  "reading": "いしゃ",
+  "meaning": "doctor",
+  "jlptLevel": "N5"
+},
+{
+  "word": "忙しい",
+  "reading": "いそがしい",
+  "meaning": "busy",
+  "jlptLevel": "N5"
+},
+{
+  "word": "痛い",
+  "reading": "いたい",
+  "meaning": "painful",
+  "jlptLevel": "N5"
+},
+{
+  "word": "一",
+  "reading": "いち",
+  "meaning": "one",
+  "jlptLevel": "N5"
+},
+{
+  "word": "一日",
+  "reading": "いちにち",
+  "meaning": "one day",
+  "jlptLevel": "N5"
+},
+{
+  "word": "五日",
+  "reading": "いつか",
+  "meaning": "five days, fifth day",
+  "jlptLevel": "N5"
+},
+{
+  "word": "一緒",
+  "reading": "いっしょ",
+  "meaning": "together",
+  "jlptLevel": "N5"
+},
+{
+  "word": "五つ",
+  "reading": "いつつ",
+  "meaning": "five (things)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "いつも",
+  "reading": "いつも",
+  "meaning": "always",
+  "jlptLevel": "N5"
+},
+{
+  "word": "犬",
+  "reading": "いぬ",
+  "meaning": "dog",
+  "jlptLevel": "N5"
+},
+{
+  "word": "今",
+  "reading": "いま",
+  "meaning": "now",
+  "jlptLevel": "N5"
+},
+{
+  "word": "意味",
+  "reading": "いみ",
+  "meaning": "meaning",
+  "jlptLevel": "N5"
+},
+{
+  "word": "妹",
+  "reading": "いもうと",
+  "meaning": "younger sister",
+  "jlptLevel": "N5"
+},
+{
+  "word": "嫌",
+  "reading": "いや",
+  "meaning": "unpleasant",
+  "jlptLevel": "N5"
+},
+{
+  "word": "入口",
+  "reading": "いりぐち",
+  "meaning": "entrance",
+  "jlptLevel": "N5"
+},
+{
+  "word": "居る",
+  "reading": "いる",
+  "meaning": "to exist (animate)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "要る",
+  "reading": "いる",
+  "meaning": "to need",
+  "jlptLevel": "N5"
+},
+{
+  "word": "入れる",
+  "reading": "いれる",
+  "meaning": "to put in",
+  "jlptLevel": "N5"
+},
+{
+  "word": "色",
+  "reading": "いろ",
+  "meaning": "color",
+  "jlptLevel": "N5"
+},
+{
+  "word": "いろいろ",
+  "reading": "いろいろ",
+  "meaning": "various",
+  "jlptLevel": "N5"
+},
+{
+  "word": "上",
+  "reading": "うえ",
+  "meaning": "above, on",
+  "jlptLevel": "N5"
+},
+{
+  "word": "後ろ",
+  "reading": "うしろ",
+  "meaning": "behind",
+  "jlptLevel": "N5"
+},
+{
+  "word": "薄い",
+  "reading": "うすい",
+  "meaning": "thin, weak",
+  "jlptLevel": "N5"
+},
+{
+  "word": "歌",
+  "reading": "うた",
+  "meaning": "song",
+  "jlptLevel": "N5"
+},
+{
+  "word": "歌う",
+  "reading": "うたう",
+  "meaning": "to sing",
+  "jlptLevel": "N5"
+},
+{
+  "word": "生まれる",
+  "reading": "うまれる",
+  "meaning": "to be born",
+  "jlptLevel": "N5"
+},
+{
+  "word": "海",
+  "reading": "うみ",
+  "meaning": "sea",
+  "jlptLevel": "N5"
+},
+{
+  "word": "売る",
+  "reading": "うる",
+  "meaning": "to sell",
+  "jlptLevel": "N5"
+},
+{
+  "word": "煩い",
+  "reading": "うるさい",
+  "meaning": "noisy",
+  "jlptLevel": "N5"
+}
+,
+{
+  "word": "絵",
+  "reading": "え",
+  "meaning": "picture",
+  "jlptLevel": "N5"
+},
+{
+  "word": "映画",
+  "reading": "えいが",
+  "meaning": "movie",
+  "jlptLevel": "N5"
+},
+{
+  "word": "映画館",
+  "reading": "えいがかん",
+  "meaning": "movie theater",
+  "jlptLevel": "N5"
+},
+{
+  "word": "英語",
+  "reading": "えいご",
+  "meaning": "English language",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ええ",
+  "reading": "ええ",
+  "meaning": "yes",
+  "jlptLevel": "N5"
+},
+{
+  "word": "駅",
+  "reading": "えき",
+  "meaning": "station",
+  "jlptLevel": "N5"
+},
+{
+  "word": "エレベーター",
+  "reading": "エレベーター",
+  "meaning": "elevator",
+  "jlptLevel": "N5"
+},
+{
+  "word": "鉛筆",
+  "reading": "えんぴつ",
+  "meaning": "pencil",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "おいしい",
+  "reading": "おいしい",
+  "meaning": "delicious",
+  "jlptLevel": "N5"
+},
+{
+  "word": "多い",
+  "reading": "おおい",
+  "meaning": "many",
+  "jlptLevel": "N5"
+},
+{
+  "word": "大きい",
+  "reading": "おおきい",
+  "meaning": "big",
+  "jlptLevel": "N5"
+},
+{
+  "word": "大勢",
+  "reading": "おおぜい",
+  "meaning": "many people",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お母さん",
+  "reading": "おかあさん",
+  "meaning": "mother",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お金",
+  "reading": "おかね",
+  "meaning": "money",
+  "jlptLevel": "N5"
+},
+{
+  "word": "起きる",
+  "reading": "おきる",
+  "meaning": "to get up",
+  "jlptLevel": "N5"
+},
+{
+  "word": "置く",
+  "reading": "おく",
+  "meaning": "to put",
+  "jlptLevel": "N5"
+},
+{
+  "word": "奥さん",
+  "reading": "おくさん",
+  "meaning": "wife",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お酒",
+  "reading": "おさけ",
+  "meaning": "alcohol",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お皿",
+  "reading": "おさら",
+  "meaning": "plate",
+  "jlptLevel": "N5"
+},
+{
+  "word": "伯父",
+  "reading": "おじ",
+  "meaning": "uncle",
+  "jlptLevel": "N5"
+},
+{
+  "word": "教える",
+  "reading": "おしえる",
+  "meaning": "to teach",
+  "jlptLevel": "N5"
+},
+{
+  "word": "押す",
+  "reading": "おす",
+  "meaning": "to push",
+  "jlptLevel": "N5"
+},
+{
+  "word": "遅い",
+  "reading": "おそい",
+  "meaning": "late, slow",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お茶",
+  "reading": "おちゃ",
+  "meaning": "tea",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お手洗い",
+  "reading": "おてあらい",
+  "meaning": "toilet",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お父さん",
+  "reading": "おとうさん",
+  "meaning": "father",
+  "jlptLevel": "N5"
+},
+{
+  "word": "弟",
+  "reading": "おとうと",
+  "meaning": "younger brother",
+  "jlptLevel": "N5"
+},
+{
+  "word": "男",
+  "reading": "おとこ",
+  "meaning": "man",
+  "jlptLevel": "N5"
+},
+{
+  "word": "男の子",
+  "reading": "おとこのこ",
+  "meaning": "boy",
+  "jlptLevel": "N5"
+},
+{
+  "word": "一昨日",
+  "reading": "おととい",
+  "meaning": "day before yesterday",
+  "jlptLevel": "N5"
+},
+{
+  "word": "大人",
+  "reading": "おとな",
+  "meaning": "adult",
+  "jlptLevel": "N5"
+},
+{
+  "word": "同じ",
+  "reading": "おなじ",
+  "meaning": "same",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お腹",
+  "reading": "おなか",
+  "meaning": "stomach",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お兄さん",
+  "reading": "おにいさん",
+  "meaning": "older brother",
+  "jlptLevel": "N5"
+},
+{
+  "word": "お姉さん",
+  "reading": "おねえさん",
+  "meaning": "older sister",
+  "jlptLevel": "N5"
+},
+{
+  "word": "重い",
+  "reading": "おもい",
+  "meaning": "heavy",
+  "jlptLevel": "N5"
+},
+{
+  "word": "面白い",
+  "reading": "おもしろい",
+  "meaning": "interesting",
+  "jlptLevel": "N5"
+}
+,
+{
+  "word": "買う",
+  "reading": "かう",
+  "meaning": "to buy",
+  "jlptLevel": "N5"
+},
+{
+  "word": "返す",
+  "reading": "かえす",
+  "meaning": "to return something",
+  "jlptLevel": "N5"
+},
+{
+  "word": "帰る",
+  "reading": "かえる",
+  "meaning": "to return, to go back",
+  "jlptLevel": "N5"
+},
+{
+  "word": "顔",
+  "reading": "かお",
+  "meaning": "face",
+  "jlptLevel": "N5"
+},
+{
+  "word": "書く",
+  "reading": "かく",
+  "meaning": "to write",
+  "jlptLevel": "N5"
+},
+{
+  "word": "学生",
+  "reading": "がくせい",
+  "meaning": "student",
+  "jlptLevel": "N5"
+},
+{
+  "word": "掛ける",
+  "reading": "かける",
+  "meaning": "to hang, to put on",
+  "jlptLevel": "N5"
+},
+{
+  "word": "傘",
+  "reading": "かさ",
+  "meaning": "umbrella",
+  "jlptLevel": "N5"
+},
+{
+  "word": "貸す",
+  "reading": "かす",
+  "meaning": "to lend",
+  "jlptLevel": "N5"
+},
+{
+  "word": "風",
+  "reading": "かぜ",
+  "meaning": "wind, cold",
+  "jlptLevel": "N5"
+},
+{
+  "word": "風邪",
+  "reading": "かぜ",
+  "meaning": "a cold (illness)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "方",
+  "reading": "かた",
+  "meaning": "person, way",
+  "jlptLevel": "N5"
+},
+{
+  "word": "家庭",
+  "reading": "かてい",
+  "meaning": "household",
+  "jlptLevel": "N5"
+},
+{
+  "word": "角",
+  "reading": "かど",
+  "meaning": "corner",
+  "jlptLevel": "N5"
+},
+{
+  "word": "カップ",
+  "reading": "カップ",
+  "meaning": "cup",
+  "jlptLevel": "N5"
+},
+{
+  "word": "カメラ",
+  "reading": "カメラ",
+  "meaning": "camera",
+  "jlptLevel": "N5"
+},
+{
+  "word": "紙",
+  "reading": "かみ",
+  "meaning": "paper",
+  "jlptLevel": "N5"
+},
+{
+  "word": "火曜日",
+  "reading": "かようび",
+  "meaning": "Tuesday",
+  "jlptLevel": "N5"
+},
+{
+  "word": "軽い",
+  "reading": "かるい",
+  "meaning": "light (weight)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "川",
+  "reading": "かわ",
+  "meaning": "river",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "漢字",
+  "reading": "かんじ",
+  "meaning": "kanji",
+  "jlptLevel": "N5"
+},
+{
+  "word": "木",
+  "reading": "き",
+  "meaning": "tree, wood",
+  "jlptLevel": "N5"
+},
+{
+  "word": "黄色",
+  "reading": "きいろ",
+  "meaning": "yellow",
+  "jlptLevel": "N5"
+},
+{
+  "word": "黄色い",
+  "reading": "きいろい",
+  "meaning": "yellow (adj)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "聞く",
+  "reading": "きく",
+  "meaning": "to listen, to ask",
+  "jlptLevel": "N5"
+},
+{
+  "word": "北",
+  "reading": "きた",
+  "meaning": "north",
+  "jlptLevel": "N5"
+},
+{
+  "word": "汚い",
+  "reading": "きたない",
+  "meaning": "dirty",
+  "jlptLevel": "N5"
+},
+{
+  "word": "切手",
+  "reading": "きって",
+  "meaning": "postage stamp",
+  "jlptLevel": "N5"
+},
+{
+  "word": "喫茶店",
+  "reading": "きっさてん",
+  "meaning": "coffee shop",
+  "jlptLevel": "N5"
+},
+{
+  "word": "切る",
+  "reading": "きる",
+  "meaning": "to cut",
+  "jlptLevel": "N5"
+},
+{
+  "word": "着る",
+  "reading": "きる",
+  "meaning": "to wear",
+  "jlptLevel": "N5"
+},
+{
+  "word": "銀行",
+  "reading": "ぎんこう",
+  "meaning": "bank",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "九",
+  "reading": "きゅう",
+  "meaning": "nine",
+  "jlptLevel": "N5"
+},
+{
+  "word": "牛肉",
+  "reading": "ぎゅうにく",
+  "meaning": "beef",
+  "jlptLevel": "N5"
+},
+{
+  "word": "牛乳",
+  "reading": "ぎゅうにゅう",
+  "meaning": "milk",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "今日",
+  "reading": "きょう",
+  "meaning": "today",
+  "jlptLevel": "N5"
+},
+{
+  "word": "教室",
+  "reading": "きょうしつ",
+  "meaning": "classroom",
+  "jlptLevel": "N5"
+},
+{
+  "word": "兄弟",
+  "reading": "きょうだい",
+  "meaning": "siblings",
+  "jlptLevel": "N5"
+},
+{
+  "word": "去年",
+  "reading": "きょねん",
+  "meaning": "last year",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "口",
+  "reading": "くち",
+  "meaning": "mouth",
+  "jlptLevel": "N5"
+},
+{
+  "word": "靴",
+  "reading": "くつ",
+  "meaning": "shoes",
+  "jlptLevel": "N5"
+},
+{
+  "word": "靴下",
+  "reading": "くつした",
+  "meaning": "socks",
+  "jlptLevel": "N5"
+},
+{
+  "word": "国",
+  "reading": "くに",
+  "meaning": "country",
+  "jlptLevel": "N5"
+},
+{
+  "word": "曇り",
+  "reading": "くもり",
+  "meaning": "cloudy weather",
+  "jlptLevel": "N5"
+},
+{
+  "word": "暗い",
+  "reading": "くらい",
+  "meaning": "dark",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "クラス",
+  "reading": "クラス",
+  "meaning": "class",
+  "jlptLevel": "N5"
+},
+{
+  "word": "グラム",
+  "reading": "グラム",
+  "meaning": "gram",
+  "jlptLevel": "N5"
+},
+{
+  "word": "来る",
+  "reading": "くる",
+  "meaning": "to come",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "車",
+  "reading": "くるま",
+  "meaning": "car",
+  "jlptLevel": "N5"
+},
+{
+  "word": "黒",
+  "reading": "くろ",
+  "meaning": "black",
+  "jlptLevel": "N5"
+},
+{
+  "word": "黒い",
+  "reading": "くろい",
+  "meaning": "black (adj)",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "警官",
+  "reading": "けいかん",
+  "meaning": "police officer",
+  "jlptLevel": "N5"
+},
+{
+  "word": "今朝",
+  "reading": "けさ",
+  "meaning": "this morning",
+  "jlptLevel": "N5"
+},
+{
+  "word": "消す",
+  "reading": "けす",
+  "meaning": "to turn off, erase",
+  "jlptLevel": "N5"
+},
+{
+  "word": "結構",
+  "reading": "けっこう",
+  "meaning": "quite, enough",
+  "jlptLevel": "N5"
+},
+{
+  "word": "結婚",
+  "reading": "けっこん",
+  "meaning": "marriage",
+  "jlptLevel": "N5"
+},
+{
+  "word": "月曜日",
+  "reading": "げつようび",
+  "meaning": "Monday",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "玄関",
+  "reading": "げんかん",
+  "meaning": "entrance",
+  "jlptLevel": "N5"
+},
+{
+  "word": "元気",
+  "reading": "げんき",
+  "meaning": "healthy, energetic",
+  "jlptLevel": "N5"
+},
+
+{
+  "word": "五",
+  "reading": "ご",
+  "meaning": "five",
+  "jlptLevel": "N5"
+},
+{
+  "word": "公園",
+  "reading": "こうえん",
+  "meaning": "park",
+  "jlptLevel": "N5"
+},
+{
+  "word": "交差点",
+  "reading": "こうさてん",
+  "meaning": "intersection",
+  "jlptLevel": "N5"
+},
+{
+  "word": "紅茶",
+  "reading": "こうちゃ",
+  "meaning": "black tea",
+  "jlptLevel": "N5"
+},
+{
+  "word": "交番",
+  "reading": "こうばん",
+  "meaning": "police box",
+  "jlptLevel": "N5"
+},
+{
+  "word": "声",
+  "reading": "こえ",
+  "meaning": "voice",
+  "jlptLevel": "N5"
+},
+{
+  "word": "コート",
+  "reading": "コート",
+  "meaning": "coat",
+  "jlptLevel": "N5"
+},
+{
+  "word": "コーヒー",
+  "reading": "コーヒー",
+  "meaning": "coffee",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ここ",
+  "reading": "ここ",
+  "meaning": "here",
+  "jlptLevel": "N5"
+},
+{
+  "word": "九日",
+  "reading": "ここのか",
+  "meaning": "nine days, ninth day",
+  "jlptLevel": "N5"
+},
+{
+  "word": "九つ",
+  "reading": "ここのつ",
+  "meaning": "nine things",
+  "jlptLevel": "N5"
+},
+{
+  "word": "午後",
+  "reading": "ごご",
+  "meaning": "afternoon",
+  "jlptLevel": "N5"
+},
+{
+  "word": "午前",
+  "reading": "ごぜん",
+  "meaning": "morning (a.m.)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "答える",
+  "reading": "こたえる",
+  "meaning": "to answer",
+  "jlptLevel": "N5"
+},
+{
+  "word": "こちら",
+  "reading": "こちら",
+  "meaning": "this way",
+  "jlptLevel": "N5"
+},
+{
+  "word": "こっち",
+  "reading": "こっち",
+  "meaning": "this side",
+  "jlptLevel": "N5"
+},
+{
+  "word": "コップ",
+  "reading": "コップ",
+  "meaning": "glass",
+  "jlptLevel": "N5"
+},
+{
+  "word": "今年",
+  "reading": "ことし",
+  "meaning": "this year",
+  "jlptLevel": "N5"
+},
+{
+  "word": "言葉",
+  "reading": "ことば",
+  "meaning": "word, language",
+  "jlptLevel": "N5"
+},
+{
+  "word": "子供",
+  "reading": "こども",
+  "meaning": "child",
+  "jlptLevel": "N5"
+},
+{
+  "word": "困る",
+  "reading": "こまる",
+  "meaning": "to be troubled",
+  "jlptLevel": "N5"
+}
+,
+{
+  "word": "再来年",
+  "reading": "さらいねん",
+  "meaning": "year after next",
+  "jlptLevel": "N5"
+},
+{
+  "word": "三",
+  "reading": "さん",
+  "meaning": "three",
+  "jlptLevel": "N5"
+},
+{
+  "word": "散歩",
+  "reading": "さんぽ",
+  "meaning": "walk, stroll",
+  "jlptLevel": "N5"
+},
+{
+  "word": "四",
+  "reading": "し",
+  "meaning": "four",
+  "jlptLevel": "N5"
+},
+{
+  "word": "CD",
+  "reading": "シーディー",
+  "meaning": "CD",
+  "jlptLevel": "N5"
+},
+{
+  "word": "塩",
+  "reading": "しお",
+  "meaning": "salt",
+  "jlptLevel": "N5"
+},
+{
+  "word": "しかし",
+  "reading": "しかし",
+  "meaning": "however",
+  "jlptLevel": "N5"
+},
+{
+  "word": "時間",
+  "reading": "じかん",
+  "meaning": "time",
+  "jlptLevel": "N5"
+},
+{
+  "word": "仕事",
+  "reading": "しごと",
+  "meaning": "work, job",
+  "jlptLevel": "N5"
+},
+{
+  "word": "辞書",
+  "reading": "じしょ",
+  "meaning": "dictionary",
+  "jlptLevel": "N5"
+},
+{
+  "word": "静か",
+  "reading": "しずか",
+  "meaning": "quiet",
+  "jlptLevel": "N5"
+},
+{
+  "word": "下",
+  "reading": "した",
+  "meaning": "under, below",
+  "jlptLevel": "N5"
+},
+{
+  "word": "七",
+  "reading": "しち",
+  "meaning": "seven",
+  "jlptLevel": "N5"
+},
+{
+  "word": "質問",
+  "reading": "しつもん",
+  "meaning": "question",
+  "jlptLevel": "N5"
+},
+{
+  "word": "自転車",
+  "reading": "じてんしゃ",
+  "meaning": "bicycle",
+  "jlptLevel": "N5"
+},
+{
+  "word": "自動車",
+  "reading": "じどうしゃ",
+  "meaning": "automobile",
+  "jlptLevel": "N5"
+},
+{
+  "word": "死ぬ",
+  "reading": "しぬ",
+  "meaning": "to die",
+  "jlptLevel": "N5"
+},
+{
+  "word": "字引",
+  "reading": "じびき",
+  "meaning": "dictionary",
+  "jlptLevel": "N5"
+},
+{
+  "word": "自分",
+  "reading": "じぶん",
+  "meaning": "oneself",
+  "jlptLevel": "N5"
+},
+{
+  "word": "閉まる",
+  "reading": "しまる",
+  "meaning": "to close",
+  "jlptLevel": "N5"
+},
+{
+  "word": "締める",
+  "reading": "しめる",
+  "meaning": "to tighten, close",
+  "jlptLevel": "N5"
+},
+{
+  "word": "写真",
+  "reading": "しゃしん",
+  "meaning": "photograph",
+  "jlptLevel": "N5"
+},
+{
+  "word": "シャワー",
+  "reading": "シャワー",
+  "meaning": "shower",
+  "jlptLevel": "N5"
+},
+{
+  "word": "十",
+  "reading": "じゅう",
+  "meaning": "ten",
+  "jlptLevel": "N5"
+},
+{
+  "word": "授業",
+  "reading": "じゅぎょう",
+  "meaning": "class, lesson",
+  "jlptLevel": "N5"
+},
+{
+  "word": "宿題",
+  "reading": "しゅくだい",
+  "meaning": "homework",
+  "jlptLevel": "N5"
+},
+{
+  "word": "上手",
+  "reading": "じょうず",
+  "meaning": "skillful",
+  "jlptLevel": "N5"
+},
+{
+  "word": "丈夫",
+  "reading": "じょうぶ",
+  "meaning": "strong, durable",
+  "jlptLevel": "N5"
+},
+{
+  "word": "少し",
+  "reading": "すこし",
+  "meaning": "a little",
+  "jlptLevel": "N5"
+},
+{
+  "word": "涼しい",
+  "reading": "すずしい",
+  "meaning": "cool (weather)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ストーブ",
+  "reading": "ストーブ",
+  "meaning": "heater",
+  "jlptLevel": "N5"
+},
+{
+  "word": "スプーン",
+  "reading": "スプーン",
+  "meaning": "spoon",
+  "jlptLevel": "N5"
+},
+{
+  "word": "スポーツ",
+  "reading": "スポーツ",
+  "meaning": "sports",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ズボン",
+  "reading": "ズボン",
+  "meaning": "trousers",
+  "jlptLevel": "N5"
+},
+{
+  "word": "住む",
+  "reading": "すむ",
+  "meaning": "to live",
+  "jlptLevel": "N5"
+},
+{
+  "word": "スリッパ",
+  "reading": "スリッパ",
+  "meaning": "slippers",
+  "jlptLevel": "N5"
+},
+{
+  "word": "する",
+  "reading": "する",
+  "meaning": "to do",
+  "jlptLevel": "N5"
+},
+{
+  "word": "座る",
+  "reading": "すわる",
+  "meaning": "to sit",
+  "jlptLevel": "N5"
+},
+{
+  "word": "背",
+  "reading": "せ",
+  "meaning": "height",
+  "jlptLevel": "N5"
+},
+{
+  "word": "セーター",
+  "reading": "セーター",
+  "meaning": "sweater",
+  "jlptLevel": "N5"
+},
+{
+  "word": "生徒",
+  "reading": "せいと",
+  "meaning": "student",
+  "jlptLevel": "N5"
+},
+{
+  "word": "石鹸",
+  "reading": "せっけん",
+  "meaning": "soap",
+  "jlptLevel": "N5"
+},
+{
+  "word": "狭い",
+  "reading": "せまい",
+  "meaning": "narrow",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ゼロ",
+  "reading": "ゼロ",
+  "meaning": "zero",
+  "jlptLevel": "N5"
+},
+{
+  "word": "千",
+  "reading": "せん",
+  "meaning": "thousand",
+  "jlptLevel": "N5"
+},
+{
+  "word": "洗濯",
+  "reading": "せんたく",
+  "meaning": "laundry",
+  "jlptLevel": "N5"
+},
+{
+  "word": "全部",
+  "reading": "ぜんぶ",
+  "meaning": "all",
+  "jlptLevel": "N5"
+},
+{
+  "word": "掃除",
+  "reading": "そうじ",
+  "meaning": "cleaning",
+  "jlptLevel": "N5"
+},
+{
+  "word": "外",
+  "reading": "そと",
+  "meaning": "outside",
+  "jlptLevel": "N5"
+},
+{
+  "word": "空",
+  "reading": "そら",
+  "meaning": "sky",
+  "jlptLevel": "N5"
+},
+{
+  "word": "それ",
+  "reading": "それ",
+  "meaning": "that",
+  "jlptLevel": "N5"
+},
+{
+  "word": "それから",
+  "reading": "それから",
+  "meaning": "after that",
+  "jlptLevel": "N5"
+},
+{
+  "word": "大変",
+  "reading": "たいへん",
+  "meaning": "very, difficult",
+  "jlptLevel": "N5"
+},
+{
+  "word": "高い",
+  "reading": "たかい",
+  "meaning": "tall, expensive",
+  "jlptLevel": "N5"
+},
+{
+  "word": "たくさん",
+  "reading": "たくさん",
+  "meaning": "many",
+  "jlptLevel": "N5"
+},
+{
+  "word": "タクシー",
+  "reading": "タクシー",
+  "meaning": "taxi",
+  "jlptLevel": "N5"
+},
+{
+  "word": "立つ",
+  "reading": "たつ",
+  "meaning": "to stand",
+  "jlptLevel": "N5"
+},
+{
+  "word": "建物",
+  "reading": "たてもの",
+  "meaning": "building",
+  "jlptLevel": "N5"
+},
+{
+  "word": "楽しい",
+  "reading": "たのしい",
+  "meaning": "fun",
+  "jlptLevel": "N5"
+}
+,
+{
+  "word": "半",
+  "reading": "はん",
+  "meaning": "half",
+  "jlptLevel": "N5"
+},
+{
+  "word": "晩",
+  "reading": "ばん",
+  "meaning": "evening",
+  "jlptLevel": "N5"
+},
+{
+  "word": "パン",
+  "reading": "パン",
+  "meaning": "bread",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ハンカチ",
+  "reading": "ハンカチ",
+  "meaning": "handkerchief",
+  "jlptLevel": "N5"
+},
+{
+  "word": "番号",
+  "reading": "ばんごう",
+  "meaning": "number",
+  "jlptLevel": "N5"
+},
+{
+  "word": "晴れる",
+  "reading": "はれる",
+  "meaning": "to be sunny",
+  "jlptLevel": "N5"
+},
+{
+  "word": "貼る",
+  "reading": "はる",
+  "meaning": "to stick, paste",
+  "jlptLevel": "N5"
+},
+{
+  "word": "春",
+  "reading": "はる",
+  "meaning": "spring",
+  "jlptLevel": "N5"
+},
+{
+  "word": "人",
+  "reading": "ひと",
+  "meaning": "person",
+  "jlptLevel": "N5"
+},
+{
+  "word": "一人",
+  "reading": "ひとり",
+  "meaning": "one person",
+  "jlptLevel": "N5"
+},
+{
+  "word": "暇",
+  "reading": "ひま",
+  "meaning": "free time",
+  "jlptLevel": "N5"
+},
+{
+  "word": "百",
+  "reading": "ひゃく",
+  "meaning": "hundred",
+  "jlptLevel": "N5"
+},
+{
+  "word": "病院",
+  "reading": "びょういん",
+  "meaning": "hospital",
+  "jlptLevel": "N5"
+},
+{
+  "word": "病気",
+  "reading": "びょうき",
+  "meaning": "illness",
+  "jlptLevel": "N5"
+},
+{
+  "word": "昼",
+  "reading": "ひる",
+  "meaning": "daytime",
+  "jlptLevel": "N5"
+},
+{
+  "word": "昼ご飯",
+  "reading": "ひるごはん",
+  "meaning": "lunch",
+  "jlptLevel": "N5"
+},
+{
+  "word": "広い",
+  "reading": "ひろい",
+  "meaning": "wide",
+  "jlptLevel": "N5"
+},
+{
+  "word": "フィルム",
+  "reading": "フィルム",
+  "meaning": "film",
+  "jlptLevel": "N5"
+},
+{
+  "word": "封筒",
+  "reading": "ふうとう",
+  "meaning": "envelope",
+  "jlptLevel": "N5"
+},
+{
+  "word": "フォーク",
+  "reading": "フォーク",
+  "meaning": "fork",
+  "jlptLevel": "N5"
+},
+{
+  "word": "吹く",
+  "reading": "ふく",
+  "meaning": "to blow",
+  "jlptLevel": "N5"
+},
+{
+  "word": "服",
+  "reading": "ふく",
+  "meaning": "clothes",
+  "jlptLevel": "N5"
+},
+{
+  "word": "二つ",
+  "reading": "ふたつ",
+  "meaning": "two things",
+  "jlptLevel": "N5"
+},
+{
+  "word": "豚肉",
+  "reading": "ぶたにく",
+  "meaning": "pork",
+  "jlptLevel": "N5"
+},
+{
+  "word": "冬",
+  "reading": "ふゆ",
+  "meaning": "winter",
+  "jlptLevel": "N5"
+},
+{
+  "word": "降る",
+  "reading": "ふる",
+  "meaning": "to fall (rain/snow)",
+  "jlptLevel": "N5"
+},
+{
+  "word": "古い",
+  "reading": "ふるい",
+  "meaning": "old",
+  "jlptLevel": "N5"
+},
+{
+  "word": "文章",
+  "reading": "ぶんしょう",
+  "meaning": "sentence",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ページ",
+  "reading": "ページ",
+  "meaning": "page",
+  "jlptLevel": "N5"
+},
+{
+  "word": "下手",
+  "reading": "へた",
+  "meaning": "unskillful",
+  "jlptLevel": "N5"
+},
+{
+  "word": "部屋",
+  "reading": "へや",
+  "meaning": "room",
+  "jlptLevel": "N5"
+},
+{
+  "word": "辺",
+  "reading": "へん",
+  "meaning": "area",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ペン",
+  "reading": "ペン",
+  "meaning": "pen",
+  "jlptLevel": "N5"
+},
+{
+  "word": "勉強",
+  "reading": "べんきょう",
+  "meaning": "study",
+  "jlptLevel": "N5"
+},
+{
+  "word": "便利",
+  "reading": "べんり",
+  "meaning": "convenient",
+  "jlptLevel": "N5"
+},
+{
+  "word": "帽子",
+  "reading": "ぼうし",
+  "meaning": "hat",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ボールペン",
+  "reading": "ボールペン",
+  "meaning": "ballpoint pen",
+  "jlptLevel": "N5"
+},
+{
+  "word": "他",
+  "reading": "ほか",
+  "meaning": "other",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ポケット",
+  "reading": "ポケット",
+  "meaning": "pocket",
+  "jlptLevel": "N5"
+},
+{
+  "word": "欲しい",
+  "reading": "ほしい",
+  "meaning": "want",
+  "jlptLevel": "N5"
+},
+{
+  "word": "細い",
+  "reading": "ほそい",
+  "meaning": "thin",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ホテル",
+  "reading": "ホテル",
+  "meaning": "hotel",
+  "jlptLevel": "N5"
+},
+{
+  "word": "本",
+  "reading": "ほん",
+  "meaning": "book",
+  "jlptLevel": "N5"
+},
+{
+  "word": "本棚",
+  "reading": "ほんだな",
+  "meaning": "bookshelf",
+  "jlptLevel": "N5"
+},
+{
+  "word": "毎朝",
+  "reading": "まいあさ",
+  "meaning": "every morning",
+  "jlptLevel": "N5"
+},
+{
+  "word": "毎日",
+  "reading": "まいにち",
+  "meaning": "every day",
+  "jlptLevel": "N5"
+},
+{
+  "word": "毎週",
+  "reading": "まいしゅう",
+  "meaning": "every week",
+  "jlptLevel": "N5"
+},
+{
+  "word": "毎年",
+  "reading": "まいとし",
+  "meaning": "every year",
+  "jlptLevel": "N5"
+},
+{
+  "word": "毎晩",
+  "reading": "まいばん",
+  "meaning": "every night",
+  "jlptLevel": "N5"
+},
+{
+  "word": "前",
+  "reading": "まえ",
+  "meaning": "before, front",
+  "jlptLevel": "N5"
+},
+{
+  "word": "曲がる",
+  "reading": "まがる",
+  "meaning": "to turn",
+  "jlptLevel": "N5"
+},
+{
+  "word": "町",
+  "reading": "まち",
+  "meaning": "town",
+  "jlptLevel": "N5"
+},
+{
+  "word": "待つ",
+  "reading": "まつ",
+  "meaning": "to wait",
+  "jlptLevel": "N5"
+},
+{
+  "word": "丸い",
+  "reading": "まるい",
+  "meaning": "round",
+  "jlptLevel": "N5"
+},
+{
+  "word": "万",
+  "reading": "まん",
+  "meaning": "ten thousand",
+  "jlptLevel": "N5"
+},
+{
+  "word": "短い",
+  "reading": "みじかい",
+  "meaning": "short",
+  "jlptLevel": "N5"
+},
+{
+  "word": "水",
+  "reading": "みず",
+  "meaning": "water",
+  "jlptLevel": "N5"
+},
+{
+  "word": "店",
+  "reading": "みせ",
+  "meaning": "shop",
+  "jlptLevel": "N5"
+},
+{
+  "word": "見せる",
+  "reading": "みせる",
+  "meaning": "to show",
+  "jlptLevel": "N5"
+},
+{
+  "word": "道",
+  "reading": "みち",
+  "meaning": "road",
+  "jlptLevel": "N5"
+},
+{
+  "word": "三日",
+  "reading": "みっか",
+  "meaning": "three days",
+  "jlptLevel": "N5"
+},
+{
+  "word": "三つ",
+  "reading": "みっつ",
+  "meaning": "three things",
+  "jlptLevel": "N5"
+},
+{
+  "word": "緑",
+  "reading": "みどり",
+  "meaning": "green",
+  "jlptLevel": "N5"
+},
+{
+  "word": "皆さん",
+  "reading": "みなさん",
+  "meaning": "everyone",
+  "jlptLevel": "N5"
+},
+{
+  "word": "南",
+  "reading": "みなみ",
+  "meaning": "south",
+  "jlptLevel": "N5"
+},
+{
+  "word": "耳",
+  "reading": "みみ",
+  "meaning": "ear",
+  "jlptLevel": "N5"
+},
+{
+  "word": "見る",
+  "reading": "みる",
+  "meaning": "to see",
+  "jlptLevel": "N5"
+},
+{
+  "word": "みんな",
+  "reading": "みんな",
+  "meaning": "everyone",
+  "jlptLevel": "N5"
+},
+{
+  "word": "六",
+  "reading": "ろく",
+  "meaning": "six",
+  "jlptLevel": "N5"
+},
+{
+  "word": "向こう",
+  "reading": "むこう",
+  "meaning": "over there",
+  "jlptLevel": "N5"
+},
+{
+  "word": "難しい",
+  "reading": "むずかしい",
+  "meaning": "difficult",
+  "jlptLevel": "N5"
+},
+{
+  "word": "村",
+  "reading": "むら",
+  "meaning": "village",
+  "jlptLevel": "N5"
+},
+{
+  "word": "目",
+  "reading": "め",
+  "meaning": "eye",
+  "jlptLevel": "N5"
+},
+{
+  "word": "眼鏡",
+  "reading": "めがね",
+  "meaning": "glasses",
+  "jlptLevel": "N5"
+},
+{
+  "word": "門",
+  "reading": "もん",
+  "meaning": "gate",
+  "jlptLevel": "N5"
+},
+{
+  "word": "問題",
+  "reading": "もんだい",
+  "meaning": "problem",
+  "jlptLevel": "N5"
+},
+{
+  "word": "八日",
+  "reading": "ようか",
+  "meaning": "eight days",
+  "jlptLevel": "N5"
+},
+{
+  "word": "八つ",
+  "reading": "やっつ",
+  "meaning": "eight things",
+  "jlptLevel": "N5"
+},
+{
+  "word": "山",
+  "reading": "やま",
+  "meaning": "mountain",
+  "jlptLevel": "N5"
+},
+{
+  "word": "夕方",
+  "reading": "ゆうがた",
+  "meaning": "evening",
+  "jlptLevel": "N5"
+},
+{
+  "word": "夕飯",
+  "reading": "ゆうはん",
+  "meaning": "dinner",
+  "jlptLevel": "N5"
+},
+{
+  "word": "郵便局",
+  "reading": "ゆうびんきょく",
+  "meaning": "post office",
+  "jlptLevel": "N5"
+},
+{
+  "word": "雪",
+  "reading": "ゆき",
+  "meaning": "snow",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ゆっくり",
+  "reading": "ゆっくり",
+  "meaning": "slowly",
+  "jlptLevel": "N5"
+},
+{
+  "word": "八",
+  "reading": "はち",
+  "meaning": "eight",
+  "jlptLevel": "N5"
+},
+{
+  "word": "四日",
+  "reading": "よっか",
+  "meaning": "four days",
+  "jlptLevel": "N5"
+},
+{
+  "word": "四つ",
+  "reading": "よっつ",
+  "meaning": "four things",
+  "jlptLevel": "N5"
+},
+{
+  "word": "呼ぶ",
+  "reading": "よぶ",
+  "meaning": "to call",
+  "jlptLevel": "N5"
+},
+{
+  "word": "読む",
+  "reading": "よむ",
+  "meaning": "to read",
+  "jlptLevel": "N5"
+},
+{
+  "word": "夜",
+  "reading": "よる",
+  "meaning": "night",
+  "jlptLevel": "N5"
+},
+{
+  "word": "弱い",
+  "reading": "よわい",
+  "meaning": "weak",
+  "jlptLevel": "N5"
+},
+{
+  "word": "来月",
+  "reading": "らいげつ",
+  "meaning": "next month",
+  "jlptLevel": "N5"
+},
+{
+  "word": "来年",
+  "reading": "らいねん",
+  "meaning": "next year",
+  "jlptLevel": "N5"
+},
+{
+  "word": "留学生",
+  "reading": "りゅうがくせい",
+  "meaning": "international student",
+  "jlptLevel": "N5"
+},
+{
+  "word": "旅行",
+  "reading": "りょこう",
+  "meaning": "travel",
+  "jlptLevel": "N5"
+},
+{
+  "word": "零",
+  "reading": "れい",
+  "meaning": "zero",
+  "jlptLevel": "N5"
+},
+{
+  "word": "冷蔵庫",
+  "reading": "れいぞうこ",
+  "meaning": "refrigerator",
+  "jlptLevel": "N5"
+},
+{
+  "word": "練習",
+  "reading": "れんしゅう",
+  "meaning": "practice",
+  "jlptLevel": "N5"
+},
+{
+  "word": "廊下",
+  "reading": "ろうか",
+  "meaning": "corridor",
+  "jlptLevel": "N5"
+},
+{
+  "word": "六日",
+  "reading": "むいか",
+  "meaning": "six days",
+  "jlptLevel": "N5"
+},
+{
+  "word": "ワイシャツ",
+  "reading": "ワイシャツ",
+  "meaning": "business shirt",
+  "jlptLevel": "N5"
+}
+,
+{ "word": "青", "reading": "あお", "meaning": "blue", "jlptLevel": "N5" },
+{ "word": "青い", "reading": "あおい", "meaning": "blue (adj)", "jlptLevel": "N5" },
+{ "word": "赤", "reading": "あか", "meaning": "red", "jlptLevel": "N5" },
+{ "word": "赤い", "reading": "あかい", "meaning": "red (adj)", "jlptLevel": "N5" },
+{ "word": "明るい", "reading": "あかるい", "meaning": "bright", "jlptLevel": "N5" },
+{ "word": "秋", "reading": "あき", "meaning": "autumn", "jlptLevel": "N5" },
+{ "word": "開く", "reading": "あく", "meaning": "to open", "jlptLevel": "N5" },
+{ "word": "上げる", "reading": "あげる", "meaning": "to raise", "jlptLevel": "N5" },
+{ "word": "朝", "reading": "あさ", "meaning": "morning", "jlptLevel": "N5" },
+{ "word": "朝ご飯", "reading": "あさごはん", "meaning": "breakfast", "jlptLevel": "N5" },
+{ "word": "足", "reading": "あし", "meaning": "leg, foot", "jlptLevel": "N5" },
+{ "word": "明日", "reading": "あした", "meaning": "tomorrow", "jlptLevel": "N5" },
+{ "word": "遊ぶ", "reading": "あそぶ", "meaning": "to play", "jlptLevel": "N5" },
+{ "word": "暖かい", "reading": "あたたかい", "meaning": "warm", "jlptLevel": "N5" },
+{ "word": "新しい", "reading": "あたらしい", "meaning": "new", "jlptLevel": "N5" },
+{ "word": "暑い", "reading": "あつい", "meaning": "hot (weather)", "jlptLevel": "N5" },
+{ "word": "熱い", "reading": "あつい", "meaning": "hot (object)", "jlptLevel": "N5" },
+{ "word": "厚い", "reading": "あつい", "meaning": "thick", "jlptLevel": "N5" },
+{ "word": "後", "reading": "あと", "meaning": "after", "jlptLevel": "N5" },
+{ "word": "兄", "reading": "あに", "meaning": "older brother", "jlptLevel": "N5" },
+{ "word": "姉", "reading": "あね", "meaning": "older sister", "jlptLevel": "N5" },
+{ "word": "甘い", "reading": "あまい", "meaning": "sweet", "jlptLevel": "N5" },
+{ "word": "雨", "reading": "あめ", "meaning": "rain", "jlptLevel": "N5" },
+{ "word": "洗う", "reading": "あらう", "meaning": "to wash", "jlptLevel": "N5" },
+{ "word": "歩く", "reading": "あるく", "meaning": "to walk", "jlptLevel": "N5" },
+{ "word": "ある", "reading": "ある", "meaning": "to exist (inanimate)", "jlptLevel": "N5" },
+{ "word": "言う", "reading": "いう", "meaning": "to say", "jlptLevel": "N5" },
+{ "word": "行く", "reading": "いく", "meaning": "to go", "jlptLevel": "N5" },
+{ "word": "忙しい", "reading": "いそがしい", "meaning": "busy", "jlptLevel": "N5" },
+{ "word": "痛い", "reading": "いたい", "meaning": "painful", "jlptLevel": "N5" },
+{ "word": "一緒", "reading": "いっしょ", "meaning": "together", "jlptLevel": "N5" },
+{ "word": "五日", "reading": "いつか", "meaning": "five days, fifth day", "jlptLevel": "N5" },
+{ "word": "犬", "reading": "いぬ", "meaning": "dog", "jlptLevel": "N5" },
+{ "word": "今", "reading": "いま", "meaning": "now", "jlptLevel": "N5" },
+{ "word": "意味", "reading": "いみ", "meaning": "meaning", "jlptLevel": "N5" },
+{ "word": "妹", "reading": "いもうと", "meaning": "younger sister", "jlptLevel": "N5" },
+{ "word": "嫌", "reading": "いや", "meaning": "unpleasant", "jlptLevel": "N5" },
+{ "word": "入口", "reading": "いりぐち", "meaning": "entrance", "jlptLevel": "N5" },
+{ "word": "色", "reading": "いろ", "meaning": "color", "jlptLevel": "N5" },
+{ "word": "後ろ", "reading": "うしろ", "meaning": "behind", "jlptLevel": "N5" },
+{ "word": "薄い", "reading": "うすい", "meaning": "thin", "jlptLevel": "N5" },
+{ "word": "歌", "reading": "うた", "meaning": "song", "jlptLevel": "N5" },
+{ "word": "歌う", "reading": "うたう", "meaning": "to sing", "jlptLevel": "N5" },
+{ "word": "生まれる", "reading": "うまれる", "meaning": "to be born", "jlptLevel": "N5" },
+{ "word": "売る", "reading": "うる", "meaning": "to sell", "jlptLevel": "N5" },
+{ "word": "上", "reading": "うえ", "meaning": "above", "jlptLevel": "N5" },
+{ "word": "後ろ", "reading": "うしろ", "meaning": "back", "jlptLevel": "N5" }
+,
+{ "word": "駅", "reading": "えき", "meaning": "station", "jlptLevel": "N5" },
+{ "word": "絵", "reading": "え", "meaning": "picture", "jlptLevel": "N5" },
+{ "word": "英語", "reading": "えいご", "meaning": "English language", "jlptLevel": "N5" },
+{ "word": "映画", "reading": "えいが", "meaning": "movie", "jlptLevel": "N5" },
+{ "word": "映画館", "reading": "えいがかん", "meaning": "cinema", "jlptLevel": "N5" },
+{ "word": "鉛筆", "reading": "えんぴつ", "meaning": "pencil", "jlptLevel": "N5" },
+{ "word": "多い", "reading": "おおい", "meaning": "many", "jlptLevel": "N5" },
+{ "word": "大きい", "reading": "おおきい", "meaning": "big", "jlptLevel": "N5" },
+{ "word": "大きな", "reading": "おおきな", "meaning": "big (na-adj)", "jlptLevel": "N5" },
+{ "word": "大勢", "reading": "おおぜい", "meaning": "many people", "jlptLevel": "N5" },
+{ "word": "お母さん", "reading": "おかあさん", "meaning": "mother", "jlptLevel": "N5" },
+{ "word": "お金", "reading": "おかね", "meaning": "money", "jlptLevel": "N5" },
+{ "word": "起きる", "reading": "おきる", "meaning": "to wake up", "jlptLevel": "N5" },
+{ "word": "置く", "reading": "おく", "meaning": "to put", "jlptLevel": "N5" },
+{ "word": "奥さん", "reading": "おくさん", "meaning": "wife", "jlptLevel": "N5" },
+{ "word": "お酒", "reading": "おさけ", "meaning": "alcohol", "jlptLevel": "N5" },
+{ "word": "お皿", "reading": "おさら", "meaning": "plate", "jlptLevel": "N5" },
+{ "word": "伯父", "reading": "おじ", "meaning": "uncle", "jlptLevel": "N5" },
+{ "word": "伯母", "reading": "おば", "meaning": "aunt", "jlptLevel": "N5" },
+{ "word": "教える", "reading": "おしえる", "meaning": "to teach", "jlptLevel": "N5" },
+{ "word": "押す", "reading": "おす", "meaning": "to push", "jlptLevel": "N5" },
+{ "word": "遅い", "reading": "おそい", "meaning": "late", "jlptLevel": "N5" },
+{ "word": "お茶", "reading": "おちゃ", "meaning": "tea", "jlptLevel": "N5" },
+{ "word": "お手洗い", "reading": "おてあらい", "meaning": "restroom", "jlptLevel": "N5" },
+{ "word": "男", "reading": "おとこ", "meaning": "man", "jlptLevel": "N5" },
+{ "word": "男の子", "reading": "おとこのこ", "meaning": "boy", "jlptLevel": "N5" },
+{ "word": "大人", "reading": "おとな", "meaning": "adult", "jlptLevel": "N5" },
+{ "word": "同じ", "reading": "おなじ", "meaning": "same", "jlptLevel": "N5" },
+{ "word": "お兄さん", "reading": "おにいさん", "meaning": "older brother", "jlptLevel": "N5" },
+{ "word": "お姉さん", "reading": "おねえさん", "meaning": "older sister", "jlptLevel": "N5" },
+{ "word": "重い", "reading": "おもい", "meaning": "heavy", "jlptLevel": "N5" },
+{ "word": "泳ぐ", "reading": "およぐ", "meaning": "to swim", "jlptLevel": "N5" },
+{ "word": "降りる", "reading": "おりる", "meaning": "to get off", "jlptLevel": "N5" },
+{ "word": "終わる", "reading": "おわる", "meaning": "to finish", "jlptLevel": "N5" }
+,
+{ "word": "外国", "reading": "がいこく", "meaning": "foreign country", "jlptLevel": "N5" },
+{ "word": "外国人", "reading": "がいこくじん", "meaning": "foreigner", "jlptLevel": "N5" },
+{ "word": "会社", "reading": "かいしゃ", "meaning": "company", "jlptLevel": "N5" },
+{ "word": "階段", "reading": "かいだん", "meaning": "stairs", "jlptLevel": "N5" },
+{ "word": "買い物", "reading": "かいもの", "meaning": "shopping", "jlptLevel": "N5" },
+{ "word": "買う", "reading": "かう", "meaning": "to buy", "jlptLevel": "N5" },
+{ "word": "返す", "reading": "かえす", "meaning": "to return (something)", "jlptLevel": "N5" },
+{ "word": "帰る", "reading": "かえる", "meaning": "to go home", "jlptLevel": "N5" },
+{ "word": "かかる", "reading": "かかる", "meaning": "to take (time/money)", "jlptLevel": "N5" },
+{ "word": "鍵", "reading": "かぎ", "meaning": "key", "jlptLevel": "N5" },
+{ "word": "書く", "reading": "かく", "meaning": "to write", "jlptLevel": "N5" },
+{ "word": "学生", "reading": "がくせい", "meaning": "student", "jlptLevel": "N5" },
+{ "word": "かける", "reading": "かける", "meaning": "to hang, to wear", "jlptLevel": "N5" },
+{ "word": "傘", "reading": "かさ", "meaning": "umbrella", "jlptLevel": "N5" },
+{ "word": "貸す", "reading": "かす", "meaning": "to lend", "jlptLevel": "N5" },
+{ "word": "風", "reading": "かぜ", "meaning": "wind", "jlptLevel": "N5" },
+{ "word": "風邪", "reading": "かぜ", "meaning": "cold (illness)", "jlptLevel": "N5" },
+{ "word": "家族", "reading": "かぞく", "meaning": "family", "jlptLevel": "N5" },
+{ "word": "方", "reading": "かた", "meaning": "person, direction", "jlptLevel": "N5" },
+{ "word": "学校", "reading": "がっこう", "meaning": "school", "jlptLevel": "N5" },
+{ "word": "家庭", "reading": "かてい", "meaning": "home, household", "jlptLevel": "N5" },
+{ "word": "角", "reading": "かど", "meaning": "corner", "jlptLevel": "N5" },
+{ "word": "かばん", "reading": "かばん", "meaning": "bag", "jlptLevel": "N5" },
+{ "word": "花瓶", "reading": "かびん", "meaning": "vase", "jlptLevel": "N5" },
+{ "word": "紙", "reading": "かみ", "meaning": "paper", "jlptLevel": "N5" },
+{ "word": "カメラ", "reading": "カメラ", "meaning": "camera", "jlptLevel": "N5" },
+{ "word": "火曜日", "reading": "かようび", "meaning": "Tuesday", "jlptLevel": "N5" },
+{ "word": "辛い", "reading": "からい", "meaning": "spicy", "jlptLevel": "N5" },
+{ "word": "体", "reading": "からだ", "meaning": "body", "jlptLevel": "N5" },
+{ "word": "借りる", "reading": "かりる", "meaning": "to borrow", "jlptLevel": "N5" },
+{ "word": "軽い", "reading": "かるい", "meaning": "light (weight)", "jlptLevel": "N5" },
+{ "word": "カレー", "reading": "カレー", "meaning": "curry", "jlptLevel": "N5" },
+{ "word": "カレンダー", "reading": "カレンダー", "meaning": "calendar", "jlptLevel": "N5" },
+{ "word": "川", "reading": "かわ", "meaning": "river", "jlptLevel": "N5" },
+{ "word": "可愛い", "reading": "かわいい", "meaning": "cute", "jlptLevel": "N5" },
+{ "word": "漢字", "reading": "かんじ", "meaning": "kanji", "jlptLevel": "N5" },
+{ "word": "木", "reading": "き", "meaning": "tree", "jlptLevel": "N5" },
+{ "word": "黄色", "reading": "きいろ", "meaning": "yellow", "jlptLevel": "N5" },
+{ "word": "黄色い", "reading": "きいろい", "meaning": "yellow (adj)", "jlptLevel": "N5" },
+{ "word": "聞く", "reading": "きく", "meaning": "to listen, ask", "jlptLevel": "N5" },
+{ "word": "北", "reading": "きた", "meaning": "north", "jlptLevel": "N5" },
+{ "word": "汚い", "reading": "きたない", "meaning": "dirty", "jlptLevel": "N5" },
+{ "word": "喫茶店", "reading": "きっさてん", "meaning": "coffee shop", "jlptLevel": "N5" },
+{ "word": "切手", "reading": "きって", "meaning": "stamp", "jlptLevel": "N5" },
+{ "word": "切符", "reading": "きっぷ", "meaning": "ticket", "jlptLevel": "N5" },
+{ "word": "昨日", "reading": "きのう", "meaning": "yesterday", "jlptLevel": "N5" },
+{ "word": "九", "reading": "きゅう", "meaning": "nine", "jlptLevel": "N5" },
+{ "word": "牛肉", "reading": "ぎゅうにく", "meaning": "beef", "jlptLevel": "N5" },
+{ "word": "牛乳", "reading": "ぎゅうにゅう", "meaning": "milk", "jlptLevel": "N5" },
+{ "word": "教室", "reading": "きょうしつ", "meaning": "classroom", "jlptLevel": "N5" },
+{ "word": "兄弟", "reading": "きょうだい", "meaning": "siblings", "jlptLevel": "N5" },
+{ "word": "去年", "reading": "きょねん", "meaning": "last year", "jlptLevel": "N5" },
+{ "word": "嫌い", "reading": "きらい", "meaning": "dislike", "jlptLevel": "N5" },
+{ "word": "切る", "reading": "きる", "meaning": "to cut", "jlptLevel": "N5" },
+{ "word": "着る", "reading": "きる", "meaning": "to wear", "jlptLevel": "N5" }
+,{ "word": "切れる", "reading": "きれる", "meaning": "to cut well, to be sharp", "jlptLevel": "N5" },
+{ "word": "綺麗", "reading": "きれい", "meaning": "clean, beautiful", "jlptLevel": "N5" },
+{ "word": "キロ", "reading": "キロ", "meaning": "kilometer", "jlptLevel": "N5" },
+{ "word": "キログラム", "reading": "キログラム", "meaning": "kilogram", "jlptLevel": "N5" },
+{ "word": "銀行", "reading": "ぎんこう", "meaning": "bank", "jlptLevel": "N5" },
+{ "word": "金曜日", "reading": "きんようび", "meaning": "Friday", "jlptLevel": "N5" },
+{ "word": "薬", "reading": "くすり", "meaning": "medicine", "jlptLevel": "N5" },
+{ "word": "ください", "reading": "ください", "meaning": "please give me", "jlptLevel": "N5" },
+{ "word": "果物", "reading": "くだもの", "meaning": "fruit", "jlptLevel": "N5" },
+{ "word": "口", "reading": "くち", "meaning": "mouth", "jlptLevel": "N5" },
+{ "word": "靴", "reading": "くつ", "meaning": "shoes", "jlptLevel": "N5" },
+{ "word": "靴下", "reading": "くつした", "meaning": "socks", "jlptLevel": "N5" },
+{ "word": "国", "reading": "くに", "meaning": "country", "jlptLevel": "N5" },
+{ "word": "曇り", "reading": "くもり", "meaning": "cloudy weather", "jlptLevel": "N5" },
+{ "word": "曇る", "reading": "くもる", "meaning": "to become cloudy", "jlptLevel": "N5" },
+{ "word": "暗い", "reading": "くらい", "meaning": "dark", "jlptLevel": "N5" },
+{ "word": "クラス", "reading": "クラス", "meaning": "class", "jlptLevel": "N5" },
+{ "word": "グラム", "reading": "グラム", "meaning": "gram", "jlptLevel": "N5" },
+{ "word": "来る", "reading": "くる", "meaning": "to come", "jlptLevel": "N5" },
+{ "word": "車", "reading": "くるま", "meaning": "car", "jlptLevel": "N5" },
+{ "word": "黒", "reading": "くろ", "meaning": "black", "jlptLevel": "N5" },
+{ "word": "黒い", "reading": "くろい", "meaning": "black (adj)", "jlptLevel": "N5" },
+{ "word": "警官", "reading": "けいかん", "meaning": "police officer", "jlptLevel": "N5" },
+{ "word": "今朝", "reading": "けさ", "meaning": "this morning", "jlptLevel": "N5" },
+{ "word": "消す", "reading": "けす", "meaning": "to turn off, erase", "jlptLevel": "N5" },
+{ "word": "結構", "reading": "けっこう", "meaning": "quite, enough", "jlptLevel": "N5" },
+{ "word": "結婚", "reading": "けっこん", "meaning": "marriage", "jlptLevel": "N5" },
+{ "word": "月曜日", "reading": "げつようび", "meaning": "Monday", "jlptLevel": "N5" },
+{ "word": "玄関", "reading": "げんかん", "meaning": "entrance", "jlptLevel": "N5" },
+{ "word": "元気", "reading": "げんき", "meaning": "healthy, energetic", "jlptLevel": "N5" },
+{ "word": "五", "reading": "ご", "meaning": "five", "jlptLevel": "N5" },
+{ "word": "公園", "reading": "こうえん", "meaning": "park", "jlptLevel": "N5" },
+{ "word": "交差点", "reading": "こうさてん", "meaning": "intersection", "jlptLevel": "N5" },
+{ "word": "紅茶", "reading": "こうちゃ", "meaning": "black tea", "jlptLevel": "N5" },
+{ "word": "交番", "reading": "こうばん", "meaning": "police box", "jlptLevel": "N5" },
+{ "word": "声", "reading": "こえ", "meaning": "voice", "jlptLevel": "N5" },
+{ "word": "コート", "reading": "コート", "meaning": "coat", "jlptLevel": "N5" },
+{ "word": "コーヒー", "reading": "コーヒー", "meaning": "coffee", "jlptLevel": "N5" },
+{ "word": "ここ", "reading": "ここ", "meaning": "here", "jlptLevel": "N5" },
+{ "word": "午後", "reading": "ごご", "meaning": "afternoon", "jlptLevel": "N5" },
+{ "word": "九日", "reading": "ここのか", "meaning": "nine days, ninth day", "jlptLevel": "N5" },
+{ "word": "困る", "reading": "こまる", "meaning": "to be troubled", "jlptLevel": "N5" },
+{ "word": "これ", "reading": "これ", "meaning": "this", "jlptLevel": "N5" },
+{ "word": "今月", "reading": "こんげつ", "meaning": "this month", "jlptLevel": "N5" },
+{ "word": "今週", "reading": "こんしゅう", "meaning": "this week", "jlptLevel": "N5" },
+{ "word": "今晩", "reading": "こんばん", "meaning": "this evening", "jlptLevel": "N5" }
+]
+

@@ -1,0 +1,18 @@
+.home-container {
+  padding: 40px;
+  text-align: center;
+  background-color: #f1faee;
+  min-height: 100vh;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.levels-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
