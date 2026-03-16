@@ -1,0 +1,37 @@
+.level-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.level-card:hover {
+  transform: translateY(-5px);
+}
+
+.level-card h2 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.level-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.level-card button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #1d3557;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.level-card button:hover {
+  background-color: #457b9d;
+}

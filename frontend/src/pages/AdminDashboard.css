@@ -1,0 +1,48 @@
+.admin-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.admin-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.admin-form input {
+  padding: 8px;
+  flex: 1;
+}
+
+.admin-form button {
+  padding: 8px 16px;
+  background: #1cbf73;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.admin-table th {
+  background: #f4f4f4;
+}
+
+.delete-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}

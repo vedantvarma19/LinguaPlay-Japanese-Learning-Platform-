@@ -1,0 +1,130 @@
+/* ===============================
+   QUIZ CONTAINER
+================================ */
+.quiz-container {
+  max-width: 420px;
+  margin: 24px auto;
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #f8fafc, #eef2f7);
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.08);
+}
+
+/* ===============================
+   TITLE & PROGRESS
+================================ */
+.quiz-title {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.quiz-progress {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 14px;
+}
+
+/* ===============================
+   QUIZ CARD
+================================ */
+.quiz-card {
+  background: white;
+  border-radius: 18px;
+  padding: 32px;
+  margin-bottom: 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
+.quiz-word {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* ===============================
+   OPTIONS
+================================ */
+.quiz-options {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.option {
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.option:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.option.correct {
+  background: #c8f7dc;
+  border: 1px solid #1cbf73;
+}
+
+.option.wrong {
+  background: #ffd6d6;
+  border: 1px solid #ff6b6b;
+}
+
+/* ===============================
+   NEXT BUTTON
+================================ */
+.next-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #1cbf73, #16a34a);
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 14px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(28, 191, 115, 0.4);
+}
+
+.next-btn:active {
+  transform: scale(0.97);
+}
+
+/* ===============================
+   SCORE & LOADING
+================================ */
+.quiz-score-live {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.quiz-loading {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.quiz-complete {
+  text-align: center;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 480px) {
+  .quiz-container {
+    margin: 16px;
+    padding: 18px;
+  }
+
+  .quiz-word {
+    font-size: 30px;
+  }
+}
