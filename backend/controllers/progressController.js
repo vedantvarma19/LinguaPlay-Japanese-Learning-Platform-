@@ -2,7 +2,6 @@ const User = require("../models/User");
 
 /* =====================================
    MARK FLASHCARD AS KNOWN
-   (BACKEND = SINGLE SOURCE OF TRUTH)
 ===================================== */
 exports.markKnown = async (req, res) => {
   try {

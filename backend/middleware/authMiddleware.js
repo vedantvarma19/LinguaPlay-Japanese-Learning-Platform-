@@ -10,7 +10,7 @@ const authMiddleware = async (req, res, next) => {
     }
 
     const token = authHeader.split(" ")[1];
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    const decoded = jwt.verify(token, process.env.JWT_SECRET); // validate token and decodes the token
 
     const user = await User.findById(decoded.id);
 
@@ -23,6 +23,10 @@ const authMiddleware = async (req, res, next) => {
     }
 
     req.user = user;
+    // downstream controllers need to know who is making the request
+    // avoids refetching token data again
+    // makes req.user.id, req.user.xp, etc. available
+
     next();
   } catch (error) {
     return res.status(401).json({ message: "Invalid or expired token" });
