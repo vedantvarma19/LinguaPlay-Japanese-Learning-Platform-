@@ -84,8 +84,6 @@ const Login = () => {
             } else {
                 await API.post("/auth/register", {name, email, password});
                 setIsLogin(true);
-                // Use a separate state for success messages or a clearer key
-                setSuccess("Account created! Please login 😊");
             }
         } catch (err) {
             // Provide a more accurate fallback depending on the mode
