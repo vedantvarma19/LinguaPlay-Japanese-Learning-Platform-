@@ -31,17 +31,6 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
-// Rate limiting
-const globalLimiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100,
-  message: {
-    message: "Too many requests. Please try again later."
-  }
-});
-
-app.use(globalLimiter);
-
 // =====================
 // ROUTE CONNECTIONS
 // =====================
