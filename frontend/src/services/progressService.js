@@ -1,10 +1,10 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api"
+  baseURL: process.env.REACT_APP_API_URL + "/api",
 });
 
-// 🔑 Attach token to EVERY request
+// Attach token to every request
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem("token");
   if (token) {
@@ -13,9 +13,6 @@ API.interceptors.request.use((req) => {
   return req;
 });
 
-// Get user progress
 export const getProgress = () => API.get("/progress");
-
-// Mark flashcard as known
 export const markKnown = (flashcardId) =>
-  API.post("/progress/known", { flashcardId });
+    API.post("/progress/known", { flashcardId });
