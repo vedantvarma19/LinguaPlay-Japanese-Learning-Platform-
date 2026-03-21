@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import API from "../services/api";
 
 /* ===== CHART.JS IMPORTS ===== */
 import {
@@ -46,25 +46,13 @@ const AdminDashboard = () => {
   useEffect(() => {
     const fetchAll = async () => {
       try {
-        const usersCount = await axios.get(
-          "http://localhost:5000/api/admin/stats/users",
-          { headers: { Authorization: `Bearer ${token}` } }
-        );
+        const usersCount = await API.get("/admin/stats/users");
 
-        const flashcardCount = await axios.get(
-          "http://localhost:5000/api/admin/stats/flashcards",
-          { headers: { Authorization: `Bearer ${token}` } }
-        );
+        const flashcardCount = await API.get("/admin/stats/flashcards");
 
-        const usersRes = await axios.get(
-          "http://localhost:5000/api/admin/users",
-          { headers: { Authorization: `Bearer ${token}` } }
-        );
+        const usersRes = await API.get("/admin/users");
 
-        const flashcardsRes = await axios.get(
-          "http://localhost:5000/api/admin/flashcards",
-          { headers: { Authorization: `Bearer ${token}` } }
-        );
+        const flashcardsRes = await API.get("/admin/flashcards");
 
         setStats({
           users: usersCount.data.totalUsers,
@@ -83,11 +71,7 @@ const AdminDashboard = () => {
 
   /* ===== USER ACTIONS ===== */
   const toggleBlock = async (id) => {
-    await axios.put(
-      `http://localhost:5000/api/admin/users/${id}/block`,
-      {},
-      { headers: { Authorization: `Bearer ${token}` } }
-    );
+    await API.put(`/admin/users/${id}/block`);
 
     setUsers((prev) =>
       prev.map((u) =>
@@ -99,10 +83,7 @@ const AdminDashboard = () => {
   const deleteUser = async (id) => {
     if (!window.confirm("Delete this user?")) return;
 
-    await axios.delete(
-      `http://localhost:5000/api/admin/users/${id}`,
-      { headers: { Authorization: `Bearer ${token}` } }
-    );
+    await API.delete(`/admin/users/${id}`);
 
     setUsers((prev) => prev.filter((u) => u._id !== id));
   };
@@ -116,26 +97,15 @@ const AdminDashboard = () => {
     e.preventDefault();
 
     if (editId) {
-      await axios.put(
-        `http://localhost:5000/api/admin/flashcards/${editId}`,
-        form,
-        { headers: { Authorization: `Bearer ${token}` } }
-      );
+      await API.put(`/admin/flashcards/${editId}`, form);
     } else {
-      await axios.post(
-        "http://localhost:5000/api/admin/flashcards",
-        form,
-        { headers: { Authorization: `Bearer ${token}` } }
-      );
+      await API.post("/admin/flashcards", form);
     }
 
     setForm({ word: "", meaning: "", example: "" });
     setEditId(null);
 
-    const res = await axios.get(
-      "http://localhost:5000/api/admin/flashcards",
-      { headers: { Authorization: `Bearer ${token}` } }
-    );
+    const res = await API.get("/admin/flashcards");
     setFlashcards(res.data);
   };
 
@@ -151,10 +121,7 @@ const AdminDashboard = () => {
   const deleteFlashcard = async (id) => {
     if (!window.confirm("Delete this flashcard?")) return;
 
-    await axios.delete(
-      `http://localhost:5000/api/admin/flashcards/${id}`,
-      { headers: { Authorization: `Bearer ${token}` } }
-    );
+    await API.delete(`/admin/flashcards/${id}`);
 
     setFlashcards((prev) => prev.filter((c) => c._id !== id));
   };
