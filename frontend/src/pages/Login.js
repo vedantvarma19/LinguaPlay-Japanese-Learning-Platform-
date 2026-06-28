@@ -282,23 +282,25 @@ const Login = () => {
               )}
 
               {/* SIMULATOR OTP BADGE */}
-              <div 
-                className="p-3 mb-4 rounded-3 text-center border font-monospace"
-                style={{
-                  background: "rgba(138, 43, 226, 0.05)",
-                  borderColor: "rgba(138, 43, 226, 0.25)"
-                }}
-              >
-                <div className="small text-muted mb-1 font-sans">🤖 [SIMULATOR CODE]</div>
-                <div className="fs-3 fw-bold text-gradient" style={{ letterSpacing: "5px" }}>{otpCode}</div>
-                <button 
-                  type="button" 
-                  className="btn btn-sm btn-link text-decoration-none mt-1 p-0 text-purple"
-                  onClick={() => setEnteredOtp(otpCode)}
+              {otpCode && (
+                <div 
+                  className="p-3 mb-4 rounded-3 text-center border font-monospace"
+                  style={{
+                    background: "rgba(138, 43, 226, 0.05)",
+                    borderColor: "rgba(138, 43, 226, 0.25)"
+                  }}
                 >
-                  <i className="bi bi-pencil-fill me-1"></i> Auto-fill OTP Code
-                </button>
-              </div>
+                  <div className="small text-muted mb-1 font-sans">🤖 [SIMULATOR CODE]</div>
+                  <div className="fs-3 fw-bold text-gradient" style={{ letterSpacing: "5px" }}>{otpCode}</div>
+                  <button 
+                    type="button" 
+                    className="btn btn-sm btn-link text-decoration-none mt-1 p-0 text-purple"
+                    onClick={() => setEnteredOtp(otpCode)}
+                  >
+                    <i className="bi bi-pencil-fill me-1"></i> Auto-fill OTP Code
+                  </button>
+                </div>
+              )}
 
               <div className="form-floating mb-3">
                 <input

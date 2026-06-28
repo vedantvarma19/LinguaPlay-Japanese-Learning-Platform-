@@ -2,8 +2,31 @@ const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const { OAuth2Client } = require("google-auth-library");
+const nodemailer = require("nodemailer");
 
 const googleClient = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+
+const createTransporter = () => {
+  if (process.env.EMAIL_HOST) {
+    return nodemailer.createTransport({
+      host: process.env.EMAIL_HOST,
+      port: parseInt(process.env.EMAIL_PORT) || 587,
+      secure: process.env.EMAIL_SECURE === "true",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
+      }
+    });
+  } else {
+    return nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
+      }
+    });
+  }
+};
 
 /* =========================
    REGISTER (SIGN UP)
@@ -34,7 +57,7 @@ const register = async (req, res) => {
     await user.save();
 
     // I have added token mechanism here - dedlinux
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "7d" });
+    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET || "linguaplay_default_secret_key", { expiresIn: "7d" });
 
     return res.status(201).json({
       message: "User registered successfully",
@@ -79,7 +102,7 @@ const login = async (req, res) => {
     // 🔐 JWT — identity ONLY (no role inside token)
     const token = jwt.sign(
       { id: user._id },
-      process.env.JWT_SECRET,
+      process.env.JWT_SECRET || "linguaplay_default_secret_key",
       { expiresIn: "7d" }
     );
 
@@ -120,14 +143,57 @@ const sendOtp = async (req, res) => {
     };
 
     console.log(`\n===================================`);
-    console.log(`🌸 [LinguaPlay OTP Simulator]`);
+    console.log(`🌸 [LinguaPlay OTP Logger]`);
     console.log(`Email: ${email}`);
     console.log(`OTP:   ${otp}`);
     console.log(`===================================\n`);
 
+    // Check if real email credentials are set in environment
+    if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
+      try {
+        const mailOptions = {
+          from: `"LinguaPlay 🌸" <${process.env.EMAIL_USER}>`,
+          to: email,
+          subject: "Verify your LinguaPlay Account 🌸",
+          html: `
+            <div style="font-family: 'Outfit', 'Segoe UI', Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 25px; border: 1.5px solid #8a2be2; border-radius: 16px; background-color: #ffffff; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+              <div style="text-align: center; margin-bottom: 25px;">
+                <span style="font-size: 50px;">🌸</span>
+                <h1 style="color: #8a2be2; margin: 10px 0; font-weight: 800; font-size: 28px;">LinguaPlay</h1>
+                <p style="color: #6c757d; font-size: 16px; margin: 0;">Learn Japanese Smarter & Faster</p>
+              </div>
+              <hr style="border: 0; border-top: 1px solid rgba(138, 43, 226, 0.15); margin: 20px 0;" />
+              <p style="font-size: 16px; color: #212529; font-weight: 600;">Konnichiwa!</p>
+              <p style="font-size: 15px; color: #495057; line-height: 1.6;">Thank you for registering on LinguaPlay. To verify your email address and activate your account, please enter the following 6-digit OTP code in the application verification field:</p>
+              <div style="background: linear-gradient(135deg, rgba(127, 0, 255, 0.05), rgba(225, 0, 255, 0.05)); border: 1px dashed rgba(138, 43, 226, 0.3); padding: 20px; border-radius: 12px; text-align: center; margin: 30px 0;">
+                <span style="font-size: 36px; font-weight: 800; letter-spacing: 6px; color: #8a2be2; font-family: monospace;">${otp}</span>
+              </div>
+              <p style="font-size: 13px; color: #6c757d; line-height: 1.5;">This code is valid for <strong>5 minutes</strong>. If you did not register for this account, you can safely ignore this email.</p>
+              <hr style="border: 0; border-top: 1px solid rgba(138, 43, 226, 0.15); margin: 20px 0;" />
+              <div style="text-align: center; font-size: 12px; color: #adb5bd;">
+                <p>© 2026 LinguaPlay Project. Made with ❤️ for Japanese learners.</p>
+              </div>
+            </div>
+          `
+        };
+
+        await createTransporter().sendMail(mailOptions);
+        console.log(`✉️ Real OTP email sent successfully to ${email}`);
+
+        return res.status(200).json({
+          message: "OTP verification code sent to your email address successfully.",
+          otp: null // HIDE simulator code on screen
+        });
+      } catch (mailErr) {
+        console.error("Nodemailer sendMail Error:", mailErr);
+        // Fall back to returning simulated OTP if email dispatch fails (prevents complete signup blockage)
+      }
+    }
+
+    // Default Fallback / Demo Mode
     return res.status(200).json({
       message: "OTP sent successfully (Simulated)",
-      otp // Return OTP in response so frontend can show/mock it for easy grading
+      otp
     });
   } catch (error) {
     console.error("sendOtp error:", error);
@@ -175,7 +241,7 @@ const verifyOtp = async (req, res) => {
 
     await user.save();
 
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "7d" });
+    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET || "linguaplay_default_secret_key", { expiresIn: "7d" });
 
     return res.status(201).json({
       message: "User registered and verified successfully",
@@ -281,7 +347,7 @@ const googleLogin = async (req, res) => {
       await user.save();
     }
 
-    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "7d" });
+    const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET || "linguaplay_default_secret_key", { expiresIn: "7d" });
 
     return res.json({
       message: "Google login successful",

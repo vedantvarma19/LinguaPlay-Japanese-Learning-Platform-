@@ -10,7 +10,7 @@ const authMiddleware = async (req, res, next) => {
     }
 
     const token = authHeader.split(" ")[1];
-    const decoded = jwt.verify(token, process.env.JWT_SECRET); // validate token and decodes the token
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || "linguaplay_default_secret_key"); // validate token and decodes the token
 
     const user = await User.findById(decoded.id);
 

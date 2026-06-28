@@ -14,6 +14,7 @@ import Login from "./pages/Login";
 import Flashcards from "./pages/Flashcards";
 import Quiz from "./pages/Quiz";
 import AdminDashboard from "./pages/AdminDashboard";
+import Profile from "./pages/Profile";
 
 /* 🔒 Auth-only Route */
 const ProtectedRoute = ({ children }) => {
@@ -62,6 +63,16 @@ const Layout = () => {
           element={
             <ProtectedRoute>
               <Quiz />
+            </ProtectedRoute>
+          }
+        />
+
+        {/* PROFILE PAGE */}
+        <Route
+          path="/profile"
+          element={
+            <ProtectedRoute>
+              <Profile />
             </ProtectedRoute>
           }
         />
