@@ -42,9 +42,29 @@ const userSchema = new mongoose.Schema(
             default: 0
         },
 
+        weeklyXp: {
+            type: Number,
+            default: 0
+        },
+
         level: {
             type: Number,
             default: 1
+        },
+
+        streak: {
+            type: Number,
+            default: 0
+        },
+
+        lastActive: {
+            type: Date,
+            default: Date.now
+        },
+
+        avatar: {
+            type: String,
+            default: "🦊"
         },
 
         jlptLevel: {

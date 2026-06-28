@@ -3,7 +3,17 @@ const rateLimit = require("express-rate-limit");
 
 const router = express.Router();
 
-const { register, login } = require("../controllers/authController");
+const authMiddleware = require("../middleware/authMiddleware");
+
+const { 
+  register, 
+  login, 
+  sendOtp, 
+  verifyOtp, 
+  googleLogin, 
+  getProfile, 
+  updateProfile 
+} = require("../controllers/authController");
 
 const loginLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -22,5 +32,14 @@ const registerLimiter = rateLimit({
 // AUTH ROUTES (FIXED - no duplicate routes)
 router.post("/register", registerLimiter, register);
 router.post("/login", loginLimiter, login);
+
+// MOCK AUTH & OTP SIGNUP
+router.post("/send-otp", sendOtp);
+router.post("/verify-otp", verifyOtp);
+router.post("/google-login", googleLogin);
+
+// USER PROFILE MANAGEMENT
+router.get("/profile", authMiddleware, getProfile);
+router.put("/profile", authMiddleware, updateProfile);
 
 module.exports = router;
